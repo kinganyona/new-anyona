@@ -384,7 +384,7 @@ nav {
   }
 
   .nav__links {
-    position: static;
+    position: absolute;
     padding: 0;
     display: flex;
     flex-direction: row;
@@ -394,7 +394,7 @@ nav {
   .nav__menu__btn {
     display: none;
   }
-  
+
   .nav__action__btn {
     justify-content: flex-end;
     display: flex;
