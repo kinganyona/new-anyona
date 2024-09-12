@@ -8,7 +8,8 @@
   --extra-light: #f3f4f6;
   --white: #ffffff;
   --max-width: 1200px;
-  --header-font: "Playfair Display", serif;
+  --header-font: "Marcellus SC", serif;
+ 
 }
 
 * {
@@ -17,10 +18,15 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Marcellus SC', serif;
+}
+
 .section__container {
   max-width: var(--max-width);
   margin: auto;
   padding: 5rem 1rem;
+  
 }
 
 .section__subheader {
