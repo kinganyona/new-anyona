@@ -218,6 +218,7 @@ nav {
   font-size: 1.5rem;
   color: var(--white);
   cursor: pointer;
+  display: block ;
 }
 
 .nav__action__btn {
@@ -377,7 +378,7 @@ nav {
   text-align: center;
 }
 
-@media (width > 768px) {
+@media (min-width: 768px) {
   .nav__logo {
     flex: 1;
   }
@@ -393,7 +394,7 @@ nav {
   .nav__menu__btn {
     display: none;
   }
-
+  
   .nav__action__btn {
     justify-content: flex-end;
     display: flex;
