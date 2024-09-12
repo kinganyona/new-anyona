@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marcellus:wght@400;500;600;700&display=swap");
 
 :root {
     --primary-color: #000000;
@@ -528,6 +528,10 @@ nav {
 }
 
 @media (width > 540px) {
+  .header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+      url("../public/acl10.jpg"); 
+  }
   .article__grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -541,7 +545,8 @@ nav {
   }
 }
 
-@media (width > 768px) {
+@media (min-width: 768px) {
+
   nav {
     position: static;
     padding: 2rem 1rem;
@@ -552,7 +557,10 @@ nav {
     justify-content: space-between;
     gap: 2rem;
   }
-
+  .header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+      url("../public/acl10.jpg"); 
+  }
   .nav__header {
     flex: 1;
     padding: 0;
